@@ -1,0 +1,5 @@
+# Writing data to a file
+f = open("example.txt", "w")   # 'w' means write mode
+f.write("Hello, World!\n")
+f.write("This is file handling in Python.")
+f.close()
